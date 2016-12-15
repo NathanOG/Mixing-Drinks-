@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=UserID\ DrinkID\ Score\ Description
+comment0.target=DrinkRating(int,\ int,\ int,\ java.lang.String)
+comment0.text=Next,\ prepare\ a\ constructor\ that\ takes\ each\ of\ the\ fields\ as\ arguements.
+comment1.params=
+comment1.target=void\ save()
+numComments=2

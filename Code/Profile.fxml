@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="ProfilePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene5Controller">
+   <children>
+      <Button fx:id="HomeProfile" layoutX="15.0" layoutY="104.0" mnemonicParsing="false" onMouseClicked="#HomeProfileClicked" text="Home" />
+      <Button fx:id="ScavengerProfile" layoutX="63.0" layoutY="104.0" mnemonicParsing="false" onMouseClicked="#ScavengerProfileClicked" text="Scavenger" />
+      <ScrollPane fx:id="ProfileScrollPane" layoutY="138.0" prefHeight="310.0" prefWidth="268.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+      </ScrollPane>
+      <ImageView fx:id="ProfileHeader" fitHeight="95.0" fitWidth="300.0">
+         <image>
+            <Image url="@../New%20Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="SignOut" layoutX="134.0" layoutY="104.0" mnemonicParsing="false" onMouseClicked="#SignOutClicked" text="Sign Out" />
+   </children>
+</Pane>

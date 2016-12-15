@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="RateItPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#RateItButtonClicked" prefHeight="448.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene6Controller">
+   <children>
+      <Button fx:id="RateItHome" layoutX="109.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#RateItHomeClicked" text="Home" />
+      <ImageView fx:id="RateItHeader" fitHeight="95.0" fitWidth="300.0">
+         <image>
+            <Image url="@../New%20Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="RateItButton" layoutX="107.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#RateItButtonClicked" text="Rate it!" />
+      <TextField fx:id="Description" layoutX="30.0" layoutY="244.0" prefHeight="139.0" prefWidth="208.0" promptText="Your Thoughts Here" />
+      <ComboBox fx:id="OutofFive" layoutX="59.0" layoutY="176.0" prefWidth="150.0" />
+   </children>
+</Pane>

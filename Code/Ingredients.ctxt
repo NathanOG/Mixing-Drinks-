@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=IngredientID\ IngredientName\ AlcholPercentageMin\ AlcholPercentageMax
+comment0.target=Ingredients(int,\ java.lang.String,\ int,\ int)
+comment0.text=Next,\ prepare\ a\ constructor\ that\ takes\ each\ of\ the\ fields\ as\ arguements.
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=A\ toString\ method\ is\ vital\ so\ that\ your\ model\ items\ can\ be\ sensibly\ displayed\ as\ text.
+comment2.params=id
+comment2.target=Ingredients\ getById(int)
+numComments=3

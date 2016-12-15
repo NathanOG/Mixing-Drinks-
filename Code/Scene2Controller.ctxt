@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Scene2Controller()
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=stage
+comment2.target=void\ prepareStageEvents(javafx.stage.Stage)
+comment2.text=\ In\ order\ to\ catch\ stage\ events\ (the\ main\ example\ being\ the\ close\ (X)\ button\ being\ clicked)\ we\ need\r\n\ to\ setup\ event\ handlers.\ This\ happens\ after\ the\ constructor\ and\ the\ initialize\ methods.\ Once\ this\ is\r\ncomplete,\ the\ scene\ is\ fully\ loaded\ and\ ready\ to\ use.
+comment3.params=we
+comment3.target=void\ handle(javafx.stage.WindowEvent)
+comment4.params=
+comment4.target=void\ NewUsernameClicked()
+comment5.params=
+comment5.target=void\ NewPasswordClicked()
+comment6.params=
+comment6.target=void\ DateofBirthClicked()
+comment7.params=
+comment7.target=void\ MakeAccountClicked()
+comment7.text=\ The\ next\ three\ methods\ are\ event\ handlers\ for\ clicking\ on\ the\ buttons.\ \r\nThe\ names\ of\ these\ methods\ are\ set\ in\ Scene\ Builder\ so\ they\ work\ automatically.
+numComments=8

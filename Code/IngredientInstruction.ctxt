@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=IngredientID\ IngredientName\ AlcholPercentageMin\ AlcholPercentageMax\ instruction
+comment0.target=IngredientInstruction(int,\ java.lang.String,\ int,\ int,\ java.lang.String)
+numComments=1
